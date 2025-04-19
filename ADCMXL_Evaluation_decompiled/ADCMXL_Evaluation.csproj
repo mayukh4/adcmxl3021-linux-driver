@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EBF0651-B906-43E7-AF4A-977BE5D4AC51}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vibration_Evaluation</RootNamespace>
+    <AssemblyName>ADCMXL_Evaluation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>ADCMXL_Evaluation.ico</ApplicationIcon>
+    <StartupObject>Vibration_Evaluation.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adisApi">
+      <HintPath>..\..\adcmxl_evaluation_rev_2192\adisApi.dll</HintPath>
+    </Reference>
+    <Reference Include="adisInterface">
+      <HintPath>..\..\adcmxl_evaluation_rev_2192\adisInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="FX3Api">
+      <HintPath>..\..\adcmxl_evaluation_rev_2192\FX3Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="RegMapClasses">
+      <HintPath>..\..\adcmxl_evaluation_rev_2192\RegMapClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADcmXL021control.cs" />
+    <Compile Include="AlarmsClass.cs" />
+    <Compile Include="ControlType.cs" />
+    <Compile Include="DeviceClass.cs" />
+    <Compile Include="DeviceCollection.cs" />
+    <Compile Include="DialogCheckListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogCheckListBox.Designer.cs">
+      <DependentUpon>DialogCheckListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogUserInteger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogUserInteger.Designer.cs">
+      <DependentUpon>DialogUserInteger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlarmStatus2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlarmStatus2.Designer.cs">
+      <DependentUpon>FormAlarmStatus2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlarmValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlarmValues.Designer.cs">
+      <DependentUpon>FormAlarmValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCountDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCountDown.Designer.cs">
+      <DependentUpon>FormCountDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataLog.Designer.cs">
+      <DependentUpon>FormDataLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataLogBurst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataLogBurst.Designer.cs">
+      <DependentUpon>FormDataLogBurst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMessage.Designer.cs">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegAccess.Designer.cs">
+      <DependentUpon>FormRegAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRichText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRichText.Designer.cs">
+      <DependentUpon>FormRichText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSPI.Designer.cs">
+      <DependentUpon>FormSPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUSBConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUSBConnect.Designer.cs">
+      <DependentUpon>FormUSBConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserSec.Designer.cs">
+      <DependentUpon>FormUserSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXX.Designer.cs">
+      <DependentUpon>FormXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalDeclarations.cs" />
+    <Compile Include="InterfaceType.cs" />
+    <Compile Include="iVIBEcontrol.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.Designer.cs">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="PlotUC.cs" />
+    <Compile Include="ProgUtilities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resources" />
+    <EmbeddedResource Include="DialogCheckListBox.resources" />
+    <EmbeddedResource Include="DialogUserInteger.resources" />
+    <EmbeddedResource Include="FormAlarmStatus2.resources" />
+    <EmbeddedResource Include="FormAlarmValues.resources" />
+    <EmbeddedResource Include="FormCountDown.resources" />
+    <EmbeddedResource Include="FormDataLog.resources" />
+    <EmbeddedResource Include="FormDataLogBurst.resources" />
+    <EmbeddedResource Include="FormHelp.resources" />
+    <EmbeddedResource Include="FormMain.resources" />
+    <EmbeddedResource Include="FormMessage.resources" />
+    <EmbeddedResource Include="FormRegAccess.resources" />
+    <EmbeddedResource Include="FormRichText.resources" />
+    <EmbeddedResource Include="FormSPI.resources" />
+    <EmbeddedResource Include="FormUSBConnect.resources" />
+    <EmbeddedResource Include="FormUserSec.resources" />
+    <EmbeddedResource Include="FormXX.resources" />
+    <EmbeddedResource Include="PlotUC.resources" />
+    <EmbeddedResource Include="Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
