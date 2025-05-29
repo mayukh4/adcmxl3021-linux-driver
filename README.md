@@ -4,18 +4,6 @@
 
 This repository contains a Python driver for the ADCMXL3021 accelerometer that replicates the exact functionality of the Windows ADCMXL_Evaluation software. The driver was developed through comprehensive reverse engineering of the Windows evaluation software.
 
----
-
-## 🎯 Key Achievements
-
-- ✅ **220 kSPS Real-Time Streaming** - Matches Windows performance
-- ✅ **Automatic FX3 Firmware Management** - No manual firmware loading required
-- ✅ **Windows-Compatible CSV Output** - Identical data format
-- ✅ **Complete RTS Mode Implementation** - Based on exact Windows protocol
-- ✅ **Production-Ready Code** - Error handling, context managers, clean architecture
-
----
-
 ## 📋 Files Structure
 
 ```
