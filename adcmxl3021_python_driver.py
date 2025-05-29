@@ -89,7 +89,9 @@ class ADCMXL3021_Driver:
                     # Load application firmware
                     fw_result = subprocess.run([
                         'sudo', 
-                        './libcyusb/build/loader'
+                        './libcyusb/build/loader',
+                        '-t', 'RAM',
+                        '-i', 'iSensor-FX3-Eval/resources/FX3_Firmware.img'
                     ], capture_output=True, text=True, cwd='.')
                     
                     if fw_result.returncode != 0:

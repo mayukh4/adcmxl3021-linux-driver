@@ -1,0 +1,650 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ADCMXL_Evaluation
+</name>
+</assembly>
+<members>
+<member name="T:Vibration_Evaluation.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.AlarmSpectrum_Default">
+<summary>
+  Looks up a localized string similar to SR_opt,Band,F_LOW,F_HIGH,X_MAG1,X_MAG2,Y_MAG1,Y_MAG2,Z_MAG1,Z_MAG2
+0,1,40,230,7000,10000,7000,10000,7000,10000
+0,2,230,330,6100,8100,6100,8100,6100,8100
+0,3,330,450,5000,7000,5000,7000,5000,7000
+0,4,450,580,9000,11000,11000,14000,11000,14000
+0,5,580,1000,8000,10000,8000,10000,8000,1000
+0,6,1000,2032,6000,9000,6000,9000,6000,9000
+1,1,41,231,7001,10001,7001,10001,7001,10001
+1,2,231,331,6101,8101,6101,8101,6101,8101
+1,3,331,451,5001,7001,5001,7001,5001,7001
+1,4,451,581,9001,11001,11001,14001,11001,14 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.Analog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.boot_fw">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.CmdDataFile_1021">
+<summary>
+  Looks up a localized string similar to Label,RegLabel,Delay,Mask,Value
+Auto-Null,COMMAND,100,0xFFFF,0x0001
+Power-Down (wake with /CS toggle). ,COMMAND,500,0xFFFF,0x0002
+Self-Test,COMMAND,1000,0xFFFF,0x0004
+Factory Reset,COMMAND,1000,0xFFFF,0x0008
+Clear Status ,COMMAND,100,0xFFFF,0x0010
+Flash Test,COMMAND,500,0xFFFF,0x0020
+Flash Update,COMMAND,500,0xFFFF,0x0040
+Software Reset,COMMAND,1000,0xFFFF,0x0080
+Clear Records,COMMAND,500,0xFFFF,0x0100
+Clear spectral alarm bands,COMMAND,500,0xFFFF,0x0200
+Reset buffer pointer,COMMAND,100,0xFFFF,0x [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.CmdDataFile_16227">
+<summary>
+  Looks up a localized string similar to Label,RegLabel,Delay,Mask,Value
+Auto-Null,COMMAND,1500,0xFFFF,0x0001
+Power-Down (wake with /CS toggle). ,COMMAND,500,0xFFFF,0x0002
+Self-Test,COMMAND,1000,0xFFFF,0x0004
+Factory Reset,COMMAND,1000,0xFFFF,0x0008
+Clear Status ,COMMAND,100,0xFFFF,0x0010
+Flash Test,COMMAND,500,0xFFFF,0x0020
+Flash Update,COMMAND,500,0xFFFF,0x0040
+Software Reset,COMMAND,1000,0xFFFF,0x0080
+Clear Records,COMMAND,500,0xFFFF,0x0100
+Clear spectral alarm bands,COMMAND,500,0xFFFF,0x0200
+Reset buffer pointer,COMMAND,100,0xFFFF,0 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.CmdDataFile_16228">
+<summary>
+  Looks up a localized string similar to Label,RegLabel,Delay,Mask,Value
+Auto-Null,COMMAND,1500,0xFFFF,0x0001
+Power-Down (wake with /CS toggle). ,COMMAND,500,0xFFFF,0x0002
+Self-Test,COMMAND,1000,0xFFFF,0x0004
+Factory Reset,COMMAND,1000,0xFFFF,0x0008
+Clear Status ,COMMAND,100,0xFFFF,0x0010
+Flash Test,COMMAND,500,0xFFFF,0x0020
+Flash Update,COMMAND,500,0xFFFF,0x0040
+Software Reset,COMMAND,1000,0xFFFF,0x0080
+Clear Records,COMMAND,500,0xFFFF,0x0100
+Clear spectral alarm bands,COMMAND,500,0xFFFF,0x0200
+Reset buffer pointer,COMMAND,100,0xFFFF,0 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.CmdDataFile_3021">
+<summary>
+  Looks up a localized string similar to Label,RegLabel,Delay,Mask,Value
+Auto-Null,COMMAND,100,0xFFFF,0x0001
+Power-Down (wake with /CS toggle). ,COMMAND,500,0xFFFF,0x0002
+Self-Test,COMMAND,1000,0xFFFF,0x0004
+Factory Reset,COMMAND,1000,0xFFFF,0x0008
+Clear Status ,COMMAND,100,0xFFFF,0x0010
+Flash Test,COMMAND,500,0xFFFF,0x0020
+Flash Update,COMMAND,500,0xFFFF,0x0040
+Software Reset,COMMAND,1000,0xFFFF,0x0080
+Clear Records,COMMAND,500,0xFFFF,0x0100
+Clear spectral alarm bands,COMMAND,500,0xFFFF,0x0200
+Reset buffer pointer,COMMAND,100,0xFFFF,0x [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.CyUSB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.DeviceCatalog">
+<summary>
+  Looks up a localized string similar to Label,ProductID,RegMapName,CmdMapName,DutInterface,DutControl,AccelAxes,GyroAxes,HasMagnetometer,HasBarometer,HasOrientation
+ADcmXL1021,1021,RegDataFile_3021,CmdDataFile_1021,adbf,ADcmXL3021,1,0,FALSE,FALSE,FALSE
+*ADcmXL2021,2021,RegDataFile_3021,CmdDataFile_2021,adbf,ADcmXL3021,2,0,FALSE,FALSE,FALSE
+ADcmXL3021,3021,RegDataFile_3021,CmdDataFile_3021,adbf,ADcmXL3021,3,0,FALSE,FALSE,FALSE
+.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.EVAL_SDRAM">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.FX3_Firmware">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.FX3Api">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.Help_DataLog">
+<summary>
+  Looks up a localized string similar to 
+The ADIS16375 and ADIS164xx provide 32-bits of output data resolution for gyroscopes, accelerometers and the barometer (48x only).
+Each 32-bit sensor has two registers, that have 16 bits each. 
+The register that ends in “OUT” represents the most significant 16-bits.  For example: X_GYRO_OUT
+The register that ends in “LOW” represents the least significant 16-bits. For example: X_GYRO_LOW
+For the Data Capture, select the “OUT” register to record the 16-bit version of the output data OR select the “LOW”  [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.HelpText">
+<summary>
+  Looks up a localized string similar to {\rtf1\adeflang1037\ansi\ansicpg1252\uc1\adeff1\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1033\deflangfe1028\themelang1033\themelangfe1028\themelangcs1037{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f14\fbidi \froman\fcharset136\fprq2{\*\panose 02020500000000000000}PMingLiU{\*\falt !Ps2OcuAe};}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}C [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.RegDataFile_16227">
+<summary>
+  Looks up a localized string similar to Label,EvalLabel,Type,Page,Addr,NumBytes,RegOffset,RegScale,ReadLen,ReadFlag,WriteFlag,TwosCompl,Hidden,Default,CalReg
+ENDURANCE,FLASH_CNT,FactoryCal,0,0,2,0,1,16,TRUE,FALSE,FALSE,FALSE,none,FALSE
+X_NULL,X_NULL,UserCal,0,2,2,0,0.0023842,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+Y_NULL,Y_NULL,UserCal,0,4,2,0,0.0023842,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+Z_NULL,Z_NULL,UserCal,0,6,2,0,0.0023842,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+REC_FLSH_CNT,REC_FLSH_CNT,UserCal,0,8,2,0,1,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+SUPPLY [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.RegDataFile_16228">
+<summary>
+  Looks up a localized string similar to Label,EvalLabel,Type,Page,Addr,NumBytes,RegOffset,RegScale,ReadLen,ReadFlag,WriteFlag,TwosCompl,Hidden,Default,CalReg
+ENDURANCE,FLASH_CNT,FactoryCal,0,0,2,0,1,16,TRUE,FALSE,FALSE,FALSE,none,FALSE
+X_NULL,X_SENS,UserCal,0,2,2,0,0.0006104,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+Y_NULL,Y_SENS,UserCal,0,4,2,0,0.0006104,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+Z_NULL,Z_SENS,UserCal,0,6,2,0,0.0006104,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+TEMP_OUT,TEMP_OUT,UserOutput,0,8,2,625,-0.47,16,TRUE,FALSE,TRUE,FALSE,none,FALSE
+SUPP [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.RegDataFile_3021">
+<summary>
+  Looks up a localized string similar to Label,EvalLabel,Type,Page,HexAddr,Addr,NumBytes,RegOffset,RegScale,ReadLen,ReadFlag,WriteFlag,TwosCompl,Hidden,Default,CalReg
+PAGE_IDENTITY,PAGE_ID,Control,0,0,0,2,0,1,16,TRUE,TRUE,FALSE,FALSE,none,FALSE
+TEMP_OUT,TEMP_OUT,UserOutput,0,2,2,2,273,0.25,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+SUPPLY_OUT,SUPPLY_OUT,UserOutput,0,4,4,2,0,0.003223,16,TRUE,TRUE,TRUE,FALSE,none,FALSE
+FFT_AVG1,FFT_AVG1,Control,0,6,6,2,0,1,16,TRUE,TRUE,FALSE,FALSE,264,FALSE
+FFT_AVG2,FFT_AVG2,Control,0,8,8,2,625,1,16,TRUE,TRUE,FALSE,FAL [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.RegMapClasses">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Vibration_Evaluation.My.Resources.Resources.Revisions">
+<summary>
+  Looks up a localized string similar to {\rtf1\adeflang1037\ansi\ansicpg1252\uc1\adeff1\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1033\deflangfe1028\themelang1033\themelangfe1028\themelangcs1037{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f14\fbidi \froman\fcharset136\fprq2{\*\panose 02020500000000000000}PMingLiU{\*\falt !Ps2OcuAe};}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}C [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="F:Vibration_Evaluation.ADcmXL021control._ProductSelected">
+ <summary>
+ The User interface, FormMain should update this value. Values are defined in the DeviceCatalog.csv file.
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.ADcmXL021control.SpiConfig">
+ <summary>
+ Sets SPI signals to GPIO pins "5MHz" or SPI Peripheral pins "30MHz".
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.ExtTriggerWait">
+ <summary>
+ Starts pin polling DIO3. Cancel by setting userCancel = True
+ Calss Wait for Capture, 
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.RecInfo_Read">
+ <summary>
+ Reads REC_INFO1 and REC_INFO2. Set properties of RecInfo object after cpature.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.RecControl_Read">
+ <summary>
+ Reads REC_CTRL. Sets RecordMode and powerDown property.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Vibration_Evaluation.ADcmXL021control.powerDownConfig">
+ <summary>
+ Set in RecControl_Read(). REC_CTRL bit 7
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Vibration_Evaluation.ADcmXL021control.RecordMode">
+ <summary>
+ Stores only the configured capture mode. SR option is read from REC_INFO1
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.StartCmd(System.ComponentModel.BackgroundWorker)">
+ <summary>
+ Sends command bit 2^11.
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.WaitForCapture(System.ComponentModel.BackgroundWorker,System.Boolean)">
+ <summary>
+ Calls DrWait.Bypasses ReadBuffers if DataReady is False. TwoLevels is used for automatic mode captures.
+ </summary>
+ <param name="TwoLevels"></param>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.GtoLog2(System.Double[])">
+ <summary>
+ Converts G to 16 bit register values.
+ </summary>
+ <param name="gdata"></param>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.Log2toFFT(System.UInt32[],System.UInt32)">
+ <summary>
+ Scales log2 data; /2048 , /fftAvg1, * RegScale/2; returns a log2 nolinear scale.
+ </summary>
+ <param name="regData"></param>
+ <param name="fftAvg"></param>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.Log2toG(System.UInt32[],System.UInt32)">
+ <summary>
+ Converts register values (frequency domain Log2) to linear G.
+ </summary>
+ <param name="regData"></param>
+ <param name="fftAvg"></param>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.GetCalDate">
+ <summary>
+ Returns an uinteger containing cal data as MMDDYYY
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.SampleRateGet(System.Double)">
+ <summary>
+ Returns the programmed sample rate in Hz.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.GetDataLogText(System.String)">
+ <summary>
+ Reads RecInfo1 ,2 , DiagStat, ALM_SAT, ALM Peak , .. . Converts values to csv format. Returns rows of strings.
+ </summary>
+ <param name="delim"></param>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.GetProductNumber">
+ <summary>
+ Returns product number stored in PROD_ID
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.ResetDUT">
+ <summary>
+ software reset the DUT firmware through Command register
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.writeCommand(System.String)">
+ <summary>
+ set register bit field values defined in CmdDataFile_16xxx.csv
+ </summary>
+ <param name="cmdKey"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.DrPollPinHigh(System.ComponentModel.BackgroundWorker)">
+ <summary>
+ Uses Spi.ReadPin. Cancel avalible if ran in background worker.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.ADcmXL021control.DrPollPinLow(System.ComponentModel.BackgroundWorker)">
+ <summary>
+ Uses Spi.ReadPin. Cancel avalible if ran in background worker.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Vibration_Evaluation.DeviceCollection.ErrorFound">
+ <summary>
+ Returns true if a parsing error was encountered during the previous reg map file read operation.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Vibration_Evaluation.DeviceCollection.ErrorText">
+ <summary>
+ Returns a multiline string containing descriptions of reg map file parsing errors.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.DeviceCollection.CreateCollection(System.String)">
+ <summary>
+ Creates a Reg Collection Object based on a multiline string formatted as a RegFile.
+ </summary>
+ <param name="text"></param>
+ <returns>Returns true if parses sucessfully, False if an error was emcountered.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.DeviceCollection.CreateCollection(System.Collections.Generic.IList{System.String})">
+ <summary>
+ Creates a Reg Collection Object based on a multiline string formatted as a RegFile.
+ </summary>
+ <param name="lines"></param>
+ <returns>Returns true if parses sucessfully, False if an error was emcountered.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Vibration_Evaluation.FormAlarmValues.AlarmRow">
+ <summary>
+ Object (row) added to a List for binding data to dataGridView.
+  Properties of this object are the columns of a dataGridView
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.FormRegAccess.ReadCategory">
+ <summary>
+ Reads the registers currently contained in the data grid view and updates their values
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormRegAccess.UpDateSelected">
+ <summary>
+ Updates the name and contents of the currenly selected register from the data grid
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormRegAccess.writeLogFile(System.String,System.String,System.String)">
+ <summary>
+ Writes log file rows.
+ </summary>
+ <param name="rg"></param>
+ <param name="val"></param>
+ <param name="src"></param>
+</member>
+<member name="M:Vibration_Evaluation.FormRegAccess.writeLogFile(RegMapClasses.RegClass,System.UInt32,System.String)">
+ <summary>
+ Overload converts RegMapClass and Uint32 types to strings. Calls lowest overload.
+ </summary>
+ <param name="rg"></param>
+ <param name="val"></param>
+</member>
+<member name="M:Vibration_Evaluation.FormRegAccess.writeLogFile(System.Collections.Generic.List{RegMapClasses.RegClass},System.Collections.Generic.List{System.UInt32},System.String)">
+ <summary>
+ Overload parses list to individual elements. Calls writeLogFile(reg, value)
+ </summary>
+ <param name="rgL"></param>
+ <param name="valL"></param>
+</member>
+<member name="T:Vibration_Evaluation.FormRegAccess.RegContents">
+ <summary>
+ An object to facilitate binding a register and its contents to the dataGridView.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Vibration_Evaluation.FormRegAccess.CmdContents">
+ <summary>
+ An object to facilitate binding a register and its contents to the dataGridView.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.recordModeShow">
+ <summary>
+ Reads Dut RecCtrl1 register. Sets rec. mode combobox selection.
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.RecModeShowFromRAF(System.Boolean)">
+ <summary>
+ Delegated, called from FormRegAccess when write reg = REC_CTRL.
+ </summary>
+ <param name="b"></param>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.CMDStartStop(System.Boolean)">
+ <summary>
+ Delegated, called from FromRegAccess when CMD = GLOB_CMD Start/Stop.
+ </summary>
+ <param name="b"></param>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.writeLogFile(System.String,System.String,System.String)">
+ <summary>
+ Writes log file rows.
+ </summary>
+ <param name="rg"></param>
+ <param name="val"></param>
+ <param name="src"></param>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.GetDataForLabel(System.String)">
+ <summary>
+ Returns the data from datArray from the register specifed by the label.
+ </summary>
+ <param name="label"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.ResizePlots">
+ <summary>
+ Redraws stored Y Data traces
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.VerifyProductNumber(System.Int32)">
+ <summary>
+ Displays a message box ix the product number read from the DUT does not match the expected number.
+ </summary>
+ <param name="prodNumber"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.SetupDataCapture">
+ <summary>
+ This routine can be called by data cap window to set DUT up for data capture.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.DatalogWrite">
+ <summary>
+ Increments the File count in the file name. Calls Dutcommand GetDatalogText. Writes file.
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.FormMain.guiIdle">
+ <summary>
+ sets color and text of btnStartStop, Menu, TabControl1, ckDatalog 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.FormMain.CheckBoxExtTrigger_Click(System.Object,System.EventArgs)">
+ <summary>
+ Toggle Checked. True = Start Polling DIO3. False = usercancel.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:Vibration_Evaluation.FormMain.DisplayObject">
+ <summary>
+ Object (row) added to a List for binding data to dataGridView.
+  Properties of this object are the columns of a dataGridView
+ </summary>
+</member>
+<member name="T:Vibration_Evaluation.FormUSBConnect">
+ <summary>
+ Sets the Global Variable BoardID
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.FormUSBConnect.showConnectionState">
+ <summary>
+ Uses global var. BoardID
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.iVIBEcontrol.ProductSelected">
+ <summary>
+ For derivative product groups. The user selected specific product. 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Vibration_Evaluation.iVIBEcontrol.SpiConfig">
+ <summary>
+ Sets SPI signals to GPIO pins "5MHz" or SPI Peripheral pins "30MHz".
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.iVIBEcontrol.StartCmd(System.ComponentModel.BackgroundWorker)">
+ <summary>
+ Sends Start/Stop code to DUT. Normal called from a background thread.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.iVIBEcontrol.StopCmd">
+ <summary>
+ Sends Stop commnds to the DUT. May be dependent on the Record Mode.
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.iVIBEcontrol.RecordMode">
+ <summary>
+ Stores Record Mode in Device Object. Writes mode to the DUT.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Vibration_Evaluation.iVIBEcontrol.ExtTrigger">
+ <summary>
+ True causes a start Capture command to wait on a High on DIO3. Port H pin 3
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Vibration_Evaluation.iVIBEcontrol.RecInfo_Read">
+ <summary>
+ Reads REC_INFO1 and REC_INFO2. Sets properties of Obj.
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:Vibration_Evaluation.iVIBEcontrol.RecordControl_Read">
+ <summary>
+ Reads REC_CTRL Sets RecordMode Property
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.iVIBEcontrol.initializeDUT(System.Int32,FX3Api.FX3Connection@)">
+ <summary>
+ Checks Prod ID. Sets Sensor count. Sets Burst Mode parameters.
+ </summary>
+ <param name="prodNumber"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Vibration_Evaluation.iVIBEcontrol.sensorSelected">
+ <summary>
+ Resets all active sensors on network to manual mode.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.iVIBEcontrol.RealTimeStop">
+ <summary>
+ 228 send escape code, 16K write stop and set manual mode
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Vibration_Evaluation.iVIBEcontrol.userCancel">
+ <summary>
+ Set False in StartC()
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Vibration_Evaluation.iVIBEcontrol.SensorClass">
+ <summary>
+ Stores data For Each sensor, On a network(16000)
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.PlotUC.ScaleLog10">
+ <summary>
+ Currently implemented in Draw bars only.
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.PlotUC.ScaleType">
+ <summary>
+ Setting ScaleType will implicitly set Ymin if ScaleType is not FreeForm
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Vibration_Evaluation.PlotUC.Ymax">
+ <summary>
+ Setting YMax will implicitly set Ymin if ScaleType is not FreeForm
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.PlotUC.AddTrace(System.String,System.String,System.Drawing.Color,System.Boolean)">
+ <summary>
+ Instantiates and initializes a trace and adds it to the trace collection.
+ </summary>
+ <param name="Label"></param>
+ <param name="RegName"></param>
+ <param name="visible"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.PlotUC.StatsUpdate(System.String)">
+ <summary>
+ Set object in the Stats table on the Plot Form.
+ </summary>
+ <param name="statType"></param>
+</member>
+<member name="M:Vibration_Evaluation.PlotUC.resetDisplay">
+ <summary>
+ Sets xPostion to zero, erases the traces, draws the grid.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Vibration_Evaluation.PlotUC.PlotTraces">
+ <summary>
+ Resizes The bit map. 
+ Redraws and re-scales stored Y Data for each trace.
+ Does not reset the x ordinate of the plot.
+ Multiple plot windows remian in sync on x if they are the same width.
+ </summary>
+</member>
+<member name="M:Vibration_Evaluation.PlotUC.TraceCollection.IndexOf(System.String)">
+ <summary>
+ Return index of a given register in the map.
+ </summary>
+ <param name="key">Key string of register to process.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Vibration_Evaluation.ProgUtilities.DatalogClass">
+ <summary>
+ parameters of the data log
+ </summary>
+</member>
+<member name="P:Vibration_Evaluation.ProgUtilities.DatalogClass.Path">
+ <summary>
+ Calls upDate GUI which effects all controls registered with StatusClass
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,3 +1,5 @@
+# ADCMXL3021 Python Driver - Git Ignore Rules
+
 # Python
 __pycache__/
 *.py[cod]
@@ -21,49 +23,88 @@ wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Data files (CSV outputs)
+*.csv
+adcmxl3021_data_*.csv
+example_data.csv
+test_*.csv
 
-# IDE
+# Log files
+*.log
+setup.log
+*.out
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Compiled libraries
+*.a
+*.so
+*.o
+*.obj
+
+# libcyusb build artifacts
+libcyusb/lib/
+libcyusb/src/*.o
+libcyusb/src/01_*
+libcyusb/src/02_*
+libcyusb/src/03_*
+libcyusb/src/04_*
+libcyusb/src/05_*
+libcyusb/src/06_*
+libcyusb/src/07_*
+libcyusb/src/08_*
+libcyusb/src/09_*
+libcyusb/src/10_*
+libcyusb/src/download_fx2
+libcyusb/src/download_fx3
+libcyusb/src/cyusb
+libcyusb/src/streamer
+
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# Temporary files
+*.tmp
+*.temp
+
+# System files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Project specific
-*.csv
-*.log
-*.tmp
-temp/
-tmp/
+# Documentation build
+docs/_build/
 
-# Compiled binaries (but keep the loader)
-libcyusb/build/*.o
-libcyusb/build/CMakeFiles/
-libcyusb/build/CMakeCache.txt
-libcyusb/build/cmake_install.cmake
-libcyusb/build/Makefile
+# Virtual environments
+venv/
+env/
+ENV/
 
-# Large decompiled files (optional - you may want to include these)
-# ADCMXL_Evaluation_decompiled/
-# iSensor-FX3-Eval/
+# Configuration files with secrets
+config.ini
+credentials.json
 
-# Keep essential build artifacts
-!libcyusb/build/libcyusb.so
-!libcyusb/build/loader 
+# Test outputs
+test_results/
+coverage/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/ 
