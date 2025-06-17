@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\bagch\OneDrive\Documents\Mayukh_misc\adcmxl_evaluation_rev_2192\FX3Api.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B6FF2E9-3E42-4112-8C98-00DFF6619A7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FX3Api</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <ApplicationVersion>2.9.5.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>FX3Api</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CyUSB">
+      <HintPath>lib\CyUSB.dll</HintPath>
+    </Reference>
+    <Reference Include="FX3USB">
+      <HintPath>lib\FX3USB.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="RegMapClasses">
+      <HintPath>lib\RegMapClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="StreamDataLogger">
+      <HintPath>lib\StreamDataLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="adisApi">
+      <HintPath>lib\adisApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FX3Connection.cs" />
+    <Compile Include="StreamType.cs" />
+    <Compile Include="EndpointAddresses.cs" />
+    <Compile Include="StreamCommands.cs" />
+    <Compile Include="FX3BoardType.cs" />
+    <Compile Include="FX3PinResistorSetting.cs" />
+    <Compile Include="USBCommands.cs" />
+    <Compile Include="SpiChipselectControl.cs" />
+    <Compile Include="DeviceType.cs" />
+    <Compile Include="SpiLagLeadTime.cs" />
+    <Compile Include="DUTType.cs" />
+    <Compile Include="DutVoltage.cs" />
+    <Compile Include="BitBangSpiConfig.cs" />
+    <Compile Include="FX3SPIConfig.cs" />
+    <Compile Include="FX3ApiInfo.cs" />
+    <Compile Include="PinPWMInfo.cs" />
+    <Compile Include="PinList.cs" />
+    <Compile Include="FX3Board.cs" />
+    <Compile Include="FX3ErrorLog.cs" />
+    <Compile Include="FX3ConfigurationException.cs" />
+    <Compile Include="FX3CommunicationException.cs" />
+    <Compile Include="FX3BadStatusException.cs" />
+    <Compile Include="FX3ProgrammingException.cs" />
+    <Compile Include="FX3Exception.cs" />
+    <Compile Include="I2CPreamble.cs" />
+    <Compile Include="FX3PinObject.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BuildDate.txt" />
+    <EmbeddedResource Include="CurrentBranch.txt" />
+    <EmbeddedResource Include="CurrentCommit.txt" />
+    <EmbeddedResource Include="CurrentURL.txt" />
+    <EmbeddedResource Include="Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

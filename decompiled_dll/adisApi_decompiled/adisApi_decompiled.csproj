@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\bagch\OneDrive\Documents\Mayukh_misc\adcmxl_evaluation_rev_2192\adisApi.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A47C0B3D-E621-44E4-923F-3AE8243E49F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>adisApi</AssemblyName>
+    <ApplicationVersion>1.2.0.999</ApplicationVersion>
+    <RootNamespace>AdisApi</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TimeoutException.cs" />
+    <Compile Include="AdisCommand.cs" />
+    <Compile Include="Gpio.cs" />
+    <Compile Include="AdisVersion.cs" />
+    <Compile Include="AddrDataPair.cs" />
+    <Compile Include="AdisBase.cs" />
+    <Compile Include="FakeSpi32Interface.cs" />
+    <Compile Include="IPinFcns.cs" />
+    <Compile Include="IPinObject.cs" />
+    <Compile Include="ISpi32Interface.cs" />
+    <Compile Include="ISpi32InterfaceException.cs" />
+    <Compile Include="Spi32Wrapper.cs" />
+    <Compile Include="SpiCortexM4.cs" />
+    <Compile Include="SpiFlash.cs" />
+    <Compile Include="CPLD.cs" />
+    <Compile Include="iSensorSim.cs" />
+    <Compile Include="IRegInterface.cs" />
+    <Compile Include="iSensorSpi.cs" />
+    <Compile Include="OTPFcns.cs" />
+    <Compile Include="PinFcns.cs" />
+    <Compile Include="PortType.cs" />
+    <Compile Include="DioPinArray.cs" />
+    <Compile Include="PinMapObject.cs" />
+    <Compile Include="PinObject.cs" />
+    <Compile Include="ISpiInterface.cs" />
+    <Compile Include="PulseFcnsTimingMeas.cs" />
+    <Compile Include="SpiIce40.cs" />
+    <Compile Include="FormGPIO.cs" />
+    <Compile Include="FormDaughter.cs" />
+    <Compile Include="SdpDaughter.cs" />
+    <Compile Include="FormAdisBase.cs" />
+    <Compile Include="Spi.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAdisBase.resx" />
+    <EmbeddedResource Include="FormDaughter.resx" />
+    <EmbeddedResource Include="FormGPIO.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

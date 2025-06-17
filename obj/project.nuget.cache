@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VFaAolwnnK0+HtB22I195ISsbLxzbAOIOH/WmtD/dJKYjPP1fU5tbJzFQY7YlTxkyjy7vmYuwtfXhT8agzwZRQ==",
+  "success": true,
+  "projectFilePath": "/home/mayukh/adcmxl3021-linux-driver/SimpleRTS.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/system.resources.extensions/6.0.0/system.resources.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\bagch\OneDrive\Documents\Mayukh_misc\adcmxl_evaluation_rev_2192\adisInterface.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{364A3E9A-E843-4E9C-97A3-5DE83DA746C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>adisInterface</AssemblyName>
+    <ApplicationVersion>1.1.0.1</ApplicationVersion>
+    <RootNamespace>adisInterface</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="RegMapClasses">
+      <HintPath>lib\RegMapClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="adisApi">
+      <HintPath>lib\adisApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdcmInterface1Axis.cs" />
+    <Compile Include="AdcmInterface2Axis.cs" />
+    <Compile Include="ComponentInterface.cs" />
+    <Compile Include="ComponentSpi.cs" />
+    <Compile Include="SpiException.cs" />
+    <Compile Include="InvalidCRCException.cs" />
+    <Compile Include="StateVectorException.cs" />
+    <Compile Include="SpiAddressException.cs" />
+    <Compile Include="TransactionCounterException.cs" />
+    <Compile Include="DataFormatArray.cs" />
+    <Compile Include="BufferStreamInfo.cs" />
+    <Compile Include="iSensorAutomotiveSpi.cs" />
+    <Compile Include="PagedDutBase.cs" />
+    <Compile Include="AdcmInterface3Axis.cs" />
+    <Compile Include="AdcmInterfaceBase.cs" />
+    <Compile Include="CpldInterface.cs" />
+    <Compile Include="IBurstMode.cs" />
+    <Compile Include="sumBurstClass.cs" />
+    <Compile Include="aducBurstClass.cs" />
+    <Compile Include="aducInterface.cs" />
+    <Compile Include="adbfInterface.cs" />
+    <Compile Include="BurstBase.cs" />
+    <Compile Include="DutBase.cs" />
+    <Compile Include="IBufferedStreamProducer.cs" />
+    <Compile Include="RunAsyncCompletedEventArgs.cs" />
+    <Compile Include="RunAsyncCompletedEventHandler.cs" />
+    <Compile Include="TextFileStreamManager.cs" />
+    <Compile Include="DataCaptureClass.cs" />
+    <Compile Include="Functions.cs" />
+    <Compile Include="gpioBit.cs" />
+    <Compile Include="RegDataDbl.cs" />
+    <Compile Include="RegDataU32.cs" />
+    <Compile Include="RegDataI32.cs" />
+    <Compile Include="RegByteDataU32.cs" />
+    <Compile Include="IDutInterface.cs" />
+    <Compile Include="ZeusInterface.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

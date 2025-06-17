@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegMapClasses", "RegMapClasses_decompiled.csproj", "{BC8731B8-F394-4C47-9D33-F8FC261C0A49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC8731B8-F394-4C47-9D33-F8FC261C0A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8731B8-F394-4C47-9D33-F8FC261C0A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8731B8-F394-4C47-9D33-F8FC261C0A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8731B8-F394-4C47-9D33-F8FC261C0A49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
